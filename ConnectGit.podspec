@@ -14,10 +14,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT' }
   s.authors          = { 'Jacksun' => '1372951831@qq.com' }
   s.platform         = :ios, '9.0'
-  s.source           = { :git => 'https://github.com/Jacksun1111/ConnectGit.git', :tag => s.version }
-  s.source_files     = 'ConnectGit/**/*.{h,m}'
-  s.exclude_files    = 'ConnectGit/include/**'
-#  s.public_header_files = 'Classes/**/*.h'
+  s.source           = { :git => '/Users/duole/ConnectGit' }
+  s.source_files     = 'ConnectGit/*.{h,m}'
+  # s.public_header_files = 'ConnectGit/*.h'
   s.requires_arc = true
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
