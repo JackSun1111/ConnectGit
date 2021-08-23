@@ -1,0 +1,13 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'ConnectGit_Example' do
+  pod 'ConnectGit', :path => '../'
+
+  target 'ConnectGit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

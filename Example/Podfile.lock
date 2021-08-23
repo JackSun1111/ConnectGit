@@ -1,0 +1,16 @@
+PODS:
+  - ConnectGit (0.1.2)
+
+DEPENDENCIES:
+  - ConnectGit (from `../`)
+
+EXTERNAL SOURCES:
+  ConnectGit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConnectGit: c0cf0c6a6258b1f627c2cc3981872b0703854497
+
+PODFILE CHECKSUM: 88374be6a59a61a94addc86627e605d1a917fed0
+
+COCOAPODS: 1.10.2
