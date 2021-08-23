@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.authors          = { 'Jacksun' => '1372951831@qq.com' }
   s.platform         = :ios, '9.0'
   s.source           = { :git => 'https://github.com/Jacksun1111/ConnectGit.git', :tag => s.version }
-  s.source_files     = 'ConnectGit/Classes/**/*.{h,m}'
+  s.source_files     = 'ConnectGit/**/*.{h,m}'
   s.exclude_files    = 'ConnectGit/include/**'
 #  s.public_header_files = 'Classes/**/*.h'
   s.requires_arc = true

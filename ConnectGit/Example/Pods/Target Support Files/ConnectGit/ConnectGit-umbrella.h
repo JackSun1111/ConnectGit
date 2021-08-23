@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AnoTest.h"
 #import "ConnTest.h"
 
 FOUNDATION_EXPORT double ConnectGitVersionNumber;

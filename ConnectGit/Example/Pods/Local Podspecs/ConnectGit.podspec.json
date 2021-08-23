@@ -1,6 +1,6 @@
 {
   "name": "ConnectGit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "ConnectGit",
   "homepage": "https://github.com/Jacksun1111/ConnectGit",
   "license": {
@@ -14,9 +14,9 @@
   },
   "source": {
     "git": "https://github.com/Jacksun1111/ConnectGit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
-  "source_files": "ConnectGit/Classes/**/*.{h,m}",
+  "source_files": "ConnectGit/**/*.{h,m}",
   "exclude_files": "ConnectGit/include/**",
   "requires_arc": true
 }

@@ -1,5 +1,5 @@
 PODS:
-  - ConnectGit (0.1.0)
+  - ConnectGit (0.1.1)
 
 DEPENDENCIES:
   - ConnectGit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ConnectGit: f2ce959e6cd85d1abfd0746f00cca33f49872613
+  ConnectGit: 273f59dff80f213a119afed3bc8654a9a13af122
 
 PODFILE CHECKSUM: 88374be6a59a61a94addc86627e605d1a917fed0
 

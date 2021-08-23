@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11D0EB4C46873F3A403C1DB0FB18E15B /* ConnectGit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B5681E222930D83F06E16553D7EFEE /* ConnectGit-dummy.m */; };
 		2C13CF2883E3E61E12D3D65F7254CF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		334A10BAE88E07F6A0987EC7AE3F22E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3488FDB90C75A4676F03224E0AAEDDA4 /* Pods-ConnectGit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDD35F9E8CD79AE425709CCC22EA1A3 /* Pods-ConnectGit_Tests-dummy.m */; };
-		4070F06166FDDDED835DD90AE7DD5BC0 /* ConnTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D12D35FD24A597F619A09EC90CEE4737 /* ConnTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE2541A5B809A0E02D4FFA8646A17C6 /* ConnTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD784B3952B12E96C6E3D4AE7E318793 /* ConnTest.m */; };
+		522BEC0D9FE3D9254C9A45CEA51F8F8C /* ConnectGit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A399BD9D67B527F66EA68FD77DA8DC /* ConnectGit-dummy.m */; };
 		6B93697C10BEDD107A320DA3307048B7 /* Pods-ConnectGit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6822DD871951E63D1C8ADA5D15D68616 /* Pods-ConnectGit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		740EA86071BFDE6DD3731F8CA47FD95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BB2D7E1FE2E5C42FBBCB3821756A1489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BE73C2EC20AC75330596BECA5AA6648A /* ConnTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D377A892D6043B6C108F5E79B9349D /* ConnTest.m */; };
+		8FFD41644EFE167B8612DC03C7A9AEDE /* ConnTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EC072455CB246D3FC6B94C88AE615A97 /* ConnTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976D0FC1AB4A032D34D6B0851512A8E9 /* AnoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B673F02DA309EDAD6714931CF1512BD /* AnoTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E15E0DE89F182A5C3333F4D0D4444513 /* Pods-ConnectGit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F80BDCA41B539207E13189A9D18FF18 /* Pods-ConnectGit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3E97354C8BC54AF862AC5A15A6A69C9 /* ConnectGit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 186CB3DC64EF5423D9B06813508EF19D /* ConnectGit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E61106F29DB76C1EF1A8A2032D211BD3 /* ConnectGit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EEDA2113194E20CC5160A105186519 /* ConnectGit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF88D750615A9DE0202C6EA7DBD9556B /* AnoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA94500831E3C2EE923762F356902B /* AnoTest.m */; };
 		F97897FBB671B32609AE34903FA95252 /* Pods-ConnectGit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA346DC6FD75D019DBE65EAF07CF52B5 /* Pods-ConnectGit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C72AD1D3B20D4A75F38957DF9FDD9DA /* PBXContainerItemProxy */ = {
+		4C676D565FC9F75A4D889B55B4BFDDD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6FE808A28EBA17C825668FB723EB0092;
 			remoteInfo = ConnectGit;
 		};
-		78606C980EA594C42BA227BC12BFF589 /* PBXContainerItemProxy */ = {
+		7E7EC242C48A1B67046040E066EB9600 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,50 +41,44 @@
 
 /* Begin PBXFileReference section */
 		00CED6CF919A85D159D14FE925FBCE09 /* Pods-ConnectGit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectGit_Example.modulemap"; sourceTree = "<group>"; };
-		0D8413D516151B95EFB29AB4E50833EF /* ConnectGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectGit.release.xcconfig; sourceTree = "<group>"; };
-		10D377A892D6043B6C108F5E79B9349D /* ConnTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConnTest.m; path = ConnectGit/Classes/ConnTest.m; sourceTree = "<group>"; };
-		186CB3DC64EF5423D9B06813508EF19D /* ConnectGit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectGit-umbrella.h"; sourceTree = "<group>"; };
+		03ABD32CB0E2B96BF72913390E2D4EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		19EEDA2113194E20CC5160A105186519 /* ConnectGit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectGit-umbrella.h"; sourceTree = "<group>"; };
+		1A6D204F079035508F91E7205C9E8580 /* ConnectGit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ConnectGit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1ABE662251F73344DA1A90E407B2103F /* ConnectGit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectGit-prefix.pch"; sourceTree = "<group>"; };
 		1BC2E61B40F7EABACA6F4E60A75E83CB /* ConnectGit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConnectGit.framework; path = ConnectGit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5398FE9B1CB5E8D42C9C1D20F0DA87 /* ConnectGit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConnectGit.modulemap; sourceTree = "<group>"; };
 		1EDD35F9E8CD79AE425709CCC22EA1A3 /* Pods-ConnectGit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectGit_Tests-dummy.m"; sourceTree = "<group>"; };
 		21284DCD2B8E16DD4ACC526F3583E63F /* Pods_ConnectGit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConnectGit_Tests.framework; path = "Pods-ConnectGit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23BAD512A273ACA7DCA09068D5A78FC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2AEE14196AB3694E7220B6A3B63DCDC4 /* Pods-ConnectGit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectGit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F764397076E85F7E212B4FC1FA11F5A /* Pods-ConnectGit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectGit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F80BDCA41B539207E13189A9D18FF18 /* Pods-ConnectGit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectGit_Example-umbrella.h"; sourceTree = "<group>"; };
+		2FCA94500831E3C2EE923762F356902B /* AnoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnoTest.m; path = ConnectGit/AnoTest.m; sourceTree = "<group>"; };
 		3989069286E63D5AC799FE63334273F8 /* Pods-ConnectGit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectGit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B7C439CA44316154C8AD6CE3E22888A /* Pods-ConnectGit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectGit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B673F02DA309EDAD6714931CF1512BD /* AnoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnoTest.h; path = ConnectGit/AnoTest.h; sourceTree = "<group>"; };
+		586B3AC748350EABDE2A413FA19C602A /* ConnectGit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConnectGit-Info.plist"; sourceTree = "<group>"; };
 		6822DD871951E63D1C8ADA5D15D68616 /* Pods-ConnectGit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectGit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C4E049C3A854E4AD9459E685A69B6CF /* Pods-ConnectGit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectGit_Example-Info.plist"; sourceTree = "<group>"; };
-		845178BCED8D1AE71AE52CD5219FE283 /* ConnectGit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ConnectGit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		814F326774F79A2A0C0E19F1358D4638 /* ConnectGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectGit.release.xcconfig; sourceTree = "<group>"; };
 		8ACCA8529EEA079307FD87BB69A36623 /* Pods-ConnectGit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectGit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96C87A0FC0259CCEAA790F1EDB43507B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA346DC6FD75D019DBE65EAF07CF52B5 /* Pods-ConnectGit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectGit_Example-dummy.m"; sourceTree = "<group>"; };
-		B822A5CE23C664288E1C909F1CF415CE /* ConnectGit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConnectGit-Info.plist"; sourceTree = "<group>"; };
+		B8A399BD9D67B527F66EA68FD77DA8DC /* ConnectGit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConnectGit-dummy.m"; sourceTree = "<group>"; };
 		BBCED3A0DB7DBAD079DD6854432073E5 /* Pods-ConnectGit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectGit_Tests-Info.plist"; sourceTree = "<group>"; };
 		C0BF59A6E7574ADB2856605595A686C9 /* Pods-ConnectGit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectGit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6B5681E222930D83F06E16553D7EFEE /* ConnectGit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConnectGit-dummy.m"; sourceTree = "<group>"; };
-		D12D35FD24A597F619A09EC90CEE4737 /* ConnTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnTest.h; path = ConnectGit/Classes/ConnTest.h; sourceTree = "<group>"; };
-		D19AB3604341DBD12E96050B44014679 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D393753F365B1BD427EFB04E1F59F3CA /* Pods-ConnectGit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectGit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD3CB10AE5C2BB04F6DA06286B43D81D /* ConnectGit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConnectGit.modulemap; sourceTree = "<group>"; };
-		E1A5CEE1139437424A2CB858AEBAD19A /* ConnectGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectGit.debug.xcconfig; sourceTree = "<group>"; };
-		F1A6322EC2ECD4A9DDFE25138BF1EDF8 /* ConnectGit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectGit-prefix.pch"; sourceTree = "<group>"; };
+		EC072455CB246D3FC6B94C88AE615A97 /* ConnTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConnTest.h; sourceTree = "<group>"; };
 		F3C729DABEFBA74E7989ECE0294E00AC /* Pods-ConnectGit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectGit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F52101743259FE556B4AD4228FBFBF4F /* Pods-ConnectGit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectGit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F64D01132039203814FCF99F71E5BEBC /* Pods-ConnectGit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectGit_Tests.modulemap"; sourceTree = "<group>"; };
 		F8A4949D5BD8F3CFDCE5AF9A1D8C91E3 /* Pods_ConnectGit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConnectGit_Example.framework; path = "Pods-ConnectGit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD784B3952B12E96C6E3D4AE7E318793 /* ConnTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConnTest.m; sourceTree = "<group>"; };
+		FE324F6BEC2296B3405E65220EF68647 /* ConnectGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectGit.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08E84074A204B8F01DC2C9D916409D1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB2D7E1FE2E5C42FBBCB3821756A1489 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69EE255512D6CAA0DB83D712E59C408C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,32 +95,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7267692EA8C23FC83C2539D371E1E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334A10BAE88E07F6A0987EC7AE3F22E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E1F057B0C76A476CABAB6DB9920D3E9 /* Support Files */ = {
+		12C37B01DA6840C1222EA34C3D8244E0 /* ConnectGit */ = {
 			isa = PBXGroup;
 			children = (
-				DD3CB10AE5C2BB04F6DA06286B43D81D /* ConnectGit.modulemap */,
-				C6B5681E222930D83F06E16553D7EFEE /* ConnectGit-dummy.m */,
-				B822A5CE23C664288E1C909F1CF415CE /* ConnectGit-Info.plist */,
-				F1A6322EC2ECD4A9DDFE25138BF1EDF8 /* ConnectGit-prefix.pch */,
-				186CB3DC64EF5423D9B06813508EF19D /* ConnectGit-umbrella.h */,
-				E1A5CEE1139437424A2CB858AEBAD19A /* ConnectGit.debug.xcconfig */,
-				0D8413D516151B95EFB29AB4E50833EF /* ConnectGit.release.xcconfig */,
+				4B673F02DA309EDAD6714931CF1512BD /* AnoTest.h */,
+				2FCA94500831E3C2EE923762F356902B /* AnoTest.m */,
+				9AE70C640291548D5A2CAAF954ED3F78 /* Classes */,
+				FC59E604B38E5BAD70DBC9104D70E9B9 /* Pod */,
+				A2D31C3D3BDABA67F08CA2F20373AB82 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ConnectGit";
-			sourceTree = "<group>";
-		};
-		143FE0E4F2FB5B54228C1FDDC8B706D6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				845178BCED8D1AE71AE52CD5219FE283 /* ConnectGit.podspec */,
-				23BAD512A273ACA7DCA09068D5A78FC9 /* LICENSE */,
-				D19AB3604341DBD12E96050B44014679 /* README.md */,
-			);
-			name = Pod;
+			name = ConnectGit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1D4593976D5CD377562B0612A0CA6F45 /* Pods-ConnectGit_Tests */ = {
@@ -141,6 +133,14 @@
 			);
 			name = "Pods-ConnectGit_Tests";
 			path = "Target Support Files/Pods-ConnectGit_Tests";
+			sourceTree = "<group>";
+		};
+		2A34BF8EC50C1620D42DBB62949492EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12C37B01DA6840C1222EA34C3D8244E0 /* ConnectGit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -161,16 +161,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FE5034018F4B2D46A596F77A3C85C7E /* ConnectGit */ = {
+		9AE70C640291548D5A2CAAF954ED3F78 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D12D35FD24A597F619A09EC90CEE4737 /* ConnTest.h */,
-				10D377A892D6043B6C108F5E79B9349D /* ConnTest.m */,
-				143FE0E4F2FB5B54228C1FDDC8B706D6 /* Pod */,
-				0E1F057B0C76A476CABAB6DB9920D3E9 /* Support Files */,
+				EC072455CB246D3FC6B94C88AE615A97 /* ConnTest.h */,
+				FD784B3952B12E96C6E3D4AE7E318793 /* ConnTest.m */,
 			);
-			name = ConnectGit;
-			path = ../..;
+			name = Classes;
+			path = ConnectGit/Classes;
 			sourceTree = "<group>";
 		};
 		9BF0F25E803DBC2B87A7E8287B215BE8 /* Pods-ConnectGit_Example */ = {
@@ -190,6 +188,21 @@
 			path = "Target Support Files/Pods-ConnectGit_Example";
 			sourceTree = "<group>";
 		};
+		A2D31C3D3BDABA67F08CA2F20373AB82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5398FE9B1CB5E8D42C9C1D20F0DA87 /* ConnectGit.modulemap */,
+				B8A399BD9D67B527F66EA68FD77DA8DC /* ConnectGit-dummy.m */,
+				586B3AC748350EABDE2A413FA19C602A /* ConnectGit-Info.plist */,
+				1ABE662251F73344DA1A90E407B2103F /* ConnectGit-prefix.pch */,
+				19EEDA2113194E20CC5160A105186519 /* ConnectGit-umbrella.h */,
+				FE324F6BEC2296B3405E65220EF68647 /* ConnectGit.debug.xcconfig */,
+				814F326774F79A2A0C0E19F1358D4638 /* ConnectGit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ConnectGit";
+			sourceTree = "<group>";
+		};
 		B978E625DA357508502F9ADC28DA41A9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,19 +212,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C320C408B2410EF31322A026247B00F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6FE5034018F4B2D46A596F77A3C85C7E /* ConnectGit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C320C408B2410EF31322A026247B00F6 /* Development Pods */,
+				2A34BF8EC50C1620D42DBB62949492EA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6E8EB21FA36E931A9B73662750E18D4A /* Products */,
 				B978E625DA357508502F9ADC28DA41A9 /* Targets Support Files */,
@@ -224,6 +229,16 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC59E604B38E5BAD70DBC9104D70E9B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D204F079035508F91E7205C9E8580 /* ConnectGit.podspec */,
+				03ABD32CB0E2B96BF72913390E2D4EF4 /* LICENSE */,
+				96C87A0FC0259CCEAA790F1EDB43507B /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +260,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B916A7D46007AA60C3663D19B0139A /* Headers */ = {
+		5366B68AD0D0AC9FAA8D56E369B7DE90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E97354C8BC54AF862AC5A15A6A69C9 /* ConnectGit-umbrella.h in Headers */,
-				4070F06166FDDDED835DD90AE7DD5BC0 /* ConnTest.h in Headers */,
+				976D0FC1AB4A032D34D6B0851512A8E9 /* AnoTest.h in Headers */,
+				E61106F29DB76C1EF1A8A2032D211BD3 /* ConnectGit-umbrella.h in Headers */,
+				8FFD41644EFE167B8612DC03C7A9AEDE /* ConnTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +275,12 @@
 /* Begin PBXNativeTarget section */
 		6FE808A28EBA17C825668FB723EB0092 /* ConnectGit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F5B613D632A466C0324AD2D13ACE521 /* Build configuration list for PBXNativeTarget "ConnectGit" */;
+			buildConfigurationList = 3B2C5C75D1AED140648E10344851FF92 /* Build configuration list for PBXNativeTarget "ConnectGit" */;
 			buildPhases = (
-				E2B916A7D46007AA60C3663D19B0139A /* Headers */,
-				BA7A55C0E36B00C94F41F93C0A34E38F /* Sources */,
-				08E84074A204B8F01DC2C9D916409D1E /* Frameworks */,
-				F020CD1AB45823D032CBF6C18630A6D6 /* Resources */,
+				5366B68AD0D0AC9FAA8D56E369B7DE90 /* Headers */,
+				FD6B337691376FCC98FA806F963DF431 /* Sources */,
+				C7267692EA8C23FC83C2539D371E1E99 /* Frameworks */,
+				3612531B48CB3734045A1776F434F14B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +303,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				165AEB8E64861F2887A8A800B01063CB /* PBXTargetDependency */,
+				09A1198F3AFE862BD16523C5D5E46738 /* PBXTargetDependency */,
 			);
 			name = "Pods-ConnectGit_Tests";
 			productName = "Pods-ConnectGit_Tests";
@@ -306,7 +322,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CAF37ECFF1A37A076A0A0DA64E89F12C /* PBXTargetDependency */,
+				F084A1A8C2FE02F02E8B30C8DC6E32AF /* PBXTargetDependency */,
 			);
 			name = "Pods-ConnectGit_Example";
 			productName = "Pods-ConnectGit_Example";
@@ -343,6 +359,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3612531B48CB3734045A1776F434F14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		684677AD67EF84F980F3A04D87BA5AA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,13 +374,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		695B595E90DBD399299F3764EFA9BF72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F020CD1AB45823D032CBF6C18630A6D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,29 +399,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA7A55C0E36B00C94F41F93C0A34E38F /* Sources */ = {
+		FD6B337691376FCC98FA806F963DF431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D0EB4C46873F3A403C1DB0FB18E15B /* ConnectGit-dummy.m in Sources */,
-				BE73C2EC20AC75330596BECA5AA6648A /* ConnTest.m in Sources */,
+				EF88D750615A9DE0202C6EA7DBD9556B /* AnoTest.m in Sources */,
+				522BEC0D9FE3D9254C9A45CEA51F8F8C /* ConnectGit-dummy.m in Sources */,
+				4BE2541A5B809A0E02D4FFA8646A17C6 /* ConnTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		165AEB8E64861F2887A8A800B01063CB /* PBXTargetDependency */ = {
+		09A1198F3AFE862BD16523C5D5E46738 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ConnectGit_Example";
 			target = 8C4044670A3E769CCF58388E057572B7 /* Pods-ConnectGit_Example */;
-			targetProxy = 78606C980EA594C42BA227BC12BFF589 /* PBXContainerItemProxy */;
+			targetProxy = 7E7EC242C48A1B67046040E066EB9600 /* PBXContainerItemProxy */;
 		};
-		CAF37ECFF1A37A076A0A0DA64E89F12C /* PBXTargetDependency */ = {
+		F084A1A8C2FE02F02E8B30C8DC6E32AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ConnectGit;
 			target = 6FE808A28EBA17C825668FB723EB0092 /* ConnectGit */;
-			targetProxy = 0C72AD1D3B20D4A75F38957DF9FDD9DA /* PBXContainerItemProxy */;
+			targetProxy = 4C676D565FC9F75A4D889B55B4BFDDD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -474,6 +491,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1FB5E6BAC019007BFCA61D65DD2C5FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814F326774F79A2A0C0E19F1358D4638 /* ConnectGit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectGit/ConnectGit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectGit/ConnectGit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConnectGit/ConnectGit.modulemap";
+				PRODUCT_MODULE_NAME = ConnectGit;
+				PRODUCT_NAME = ConnectGit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -606,67 +654,6 @@
 			};
 			name = Debug;
 		};
-		C3DAE876AD27E3F4E4C6888449BF03D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D8413D516151B95EFB29AB4E50833EF /* ConnectGit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ConnectGit/ConnectGit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ConnectGit/ConnectGit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ConnectGit/ConnectGit.modulemap";
-				PRODUCT_MODULE_NAME = ConnectGit;
-				PRODUCT_NAME = ConnectGit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C808284981949BC386BF00D4C60F2D7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1A5CEE1139437424A2CB858AEBAD19A /* ConnectGit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ConnectGit/ConnectGit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ConnectGit/ConnectGit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ConnectGit/ConnectGit.modulemap";
-				PRODUCT_MODULE_NAME = ConnectGit;
-				PRODUCT_NAME = ConnectGit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -729,6 +716,36 @@
 			};
 			name = Release;
 		};
+		D933E9089D08C58639F80438FEE98785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE324F6BEC2296B3405E65220EF68647 /* ConnectGit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectGit/ConnectGit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectGit/ConnectGit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConnectGit/ConnectGit.modulemap";
+				PRODUCT_MODULE_NAME = ConnectGit;
+				PRODUCT_NAME = ConnectGit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -741,20 +758,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3B2C5C75D1AED140648E10344851FF92 /* Build configuration list for PBXNativeTarget "ConnectGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D933E9089D08C58639F80438FEE98785 /* Debug */,
+				1FB5E6BAC019007BFCA61D65DD2C5FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7F5B613D632A466C0324AD2D13ACE521 /* Build configuration list for PBXNativeTarget "ConnectGit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C808284981949BC386BF00D4C60F2D7C /* Debug */,
-				C3DAE876AD27E3F4E4C6888449BF03D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
