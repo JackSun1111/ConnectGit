@@ -1,0 +1,21 @@
+{
+  "name": "ConnectGit",
+  "version": "0.1.0",
+  "summary": "A short description of ConnectGit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jacksun1111/ConnectGit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jacksun": "1372951831@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Jacksun1111/ConnectGit.git"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ConnectGit/Classes/**/*"
+}
