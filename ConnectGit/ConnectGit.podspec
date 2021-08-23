@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ConnectGit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ConnectGit.'
+  s.summary          = 'ConnectGit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/Jacksun1111/ConnectGit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT' }
   s.author           = { 'Jacksun' => '1372951831@qq.com' }
   s.source           = { :git => 'https://github.com/Jacksun1111/ConnectGit.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'ConnectGit' => ['ConnectGit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
