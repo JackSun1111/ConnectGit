@@ -11,11 +11,12 @@
     "Jacksun": "1372951831@qq.com"
   },
   "source": {
-    "git": "https://github.com/Jacksun1111/ConnectGit.git"
+    "git": "https://github.com/Jacksun1111/ConnectGit.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ConnectGit/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "source_files": "ConnectGit/Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/*.h"
 }

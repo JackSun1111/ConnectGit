@@ -25,18 +25,18 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Jacksun' => '1372951831@qq.com' }
-  s.source           = { :git => 'https://github.com/Jacksun1111/ConnectGit.git' }
+  s.source           = { :git => 'https://github.com/Jacksun1111/ConnectGit.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.platform = :ios, '9.0'
 
-  s.source_files = 'ConnectGit/Classes/**/*'
+  s.source_files = 'ConnectGit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ConnectGit' => ['ConnectGit/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
