@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConnectGit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ConnectGit'
   s.homepage         = 'https://github.com/Jacksun1111/ConnectGit'
   s.license          = { :type => 'MIT' }
